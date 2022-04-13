@@ -1,5 +1,6 @@
-const sum = (a, b) => a + b;
+const MyMath = {};
+MyMath.sum = (a, b) => a + b;
 
-console.log(sum(10, 5));
+console.log(MyMath.sum(10, 5));
 
-module.exports = sum;
+module.exports = MyMath;
